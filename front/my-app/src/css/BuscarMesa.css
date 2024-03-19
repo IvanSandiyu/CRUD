@@ -1,0 +1,82 @@
+.form-buscar-mesa{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center; /* Para alinear horizontalmente al centro */
+    max-height: 20px; /* Cambia este valor según tu preferencia */
+    margin-bottom: 40%; /* Espacio arriba */
+}
+.contenedor-form-buscar-mesa {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinea los elementos a la izquierda */
+    margin-bottom: 15px; /* Espacio entre los elementos */
+}
+
+.label-id-buscar-mesa {
+    
+    margin-bottom: 8px; /* Espacio entre el label y el input */
+    font-weight: bold; /* Hace que el texto del label sea más fuerte */
+    font-size: 21px;
+    color: #766bd3;
+}
+.id-buscar-mesa{
+    width: 300px; /* Ancho del input */
+    padding: 12px; /* Espacio interno */
+    margin-bottom: 10px; /* Espacio entre el input y el botón */
+    border: 1px solid #ccc; /* Borde del input */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de la fuente */
+}
+.boton-enviar-buscar-mesa {
+    width: 150px; /* Ancho del botón */
+    padding: 10px; /* Espacio interno */
+    background-color: #03192f; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de puntero al pasar sobre el botón */
+    transition: background-color 0.5s ease; /* Transición de color al pasar sobre el botón */
+}
+.boton-enviar-buscar-mesa:hover {
+    background-color: #766bd3; /* Color de fondo del botón al pasar sobre él */
+}
+.contenido-mesa-buscada {
+  display:flex;
+  border: 1px solid #03192f;
+  background-color: #03192f;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  
+}
+/* .oculta {
+  display: none;
+} */
+ 
+.contenido-mesa-buscada h2 {
+  color: #766bd3; /* Color del texto */
+  font-size: 24px; /* Tamaño del texto */
+  margin-bottom: 10px; /* Espacio inferior */
+}
+  
+  /* Estilos para los párrafos de información */
+.contenido-mesa-buscada p {
+  color: #766bd3; /* Color del texto */
+  font-size: 18px; /* Tamaño del texto */
+  margin-bottom: 8px; /* Espacio inferior */
+}
+  
+.contenido-mesa-buscada strong {
+  font-weight: bold; /* Texto en negrita */
+  margin-right: 5px; /* Espacio a la derecha */
+}
+/*QUE EL DNI NO EXISTE, POR LO TANTO SE DEBE MOSTRAR CUANADO ES NULL
+.id-inexistente{ 
+  display: flex;
+}
+/*QUE EL DNI FUE ENCONTRADO, POR LO TATO SE DEBE MOSTRAR CUANDO NO ES NULL
+.id-encontrado{
+  display: none;
+}
+  */

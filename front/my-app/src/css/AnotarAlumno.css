@@ -1,0 +1,55 @@
+#opcion-deshabilitar{
+  color: #999; /* Color de texto gris */
+  font-style: italic; /* Texto en cursiva */
+  pointer-events: none; /* Deshabilita eventos de puntero */
+}
+.form-contenedor-principal-anotar-al {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contenedor-materias,
+.contendor-al {
+  flex:1;
+ 
+}
+.contenedor-materias{
+  margin-right: 25px;
+}
+.contendor-al{
+  margin-left: 25px;
+}
+
+.label-materias,
+.label-al {
+  margin-bottom: 10px; /* Espacio entre el label y el combobox */
+}
+
+#combobox-materias,
+#combobox-al {
+  
+  width: 100%; /* Ancho completo */
+  padding: 10px; /* Espacio interno */
+  margin-bottom: 10px; /* Espacio entre el combobox y el siguiente elemento */
+  border: 1px solid #ccc; /* Borde del combobox */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+
+.boton-enviar-anotar-al {
+  width: 150px; /* Ancho del botón */
+  padding: 10px; /* Espacio interno */
+  margin-top: 20px; /* Espacio arriba del botón */
+  background-color: #03192f; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none; /* Eliminar borde del botón */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor de puntero al pasar sobre el botón */
+  transition: background-color 0.5s ease; /* Transición de color al pasar sobre el botón */
+}
+
+.boton-enviar-anotar-al:hover {
+  background-color: #766bd3; /* Color de fondo del botón al pasar sobre él */
+}

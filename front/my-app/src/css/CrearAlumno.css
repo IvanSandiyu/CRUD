@@ -1,0 +1,33 @@
+
+  .contenedor-form-crear-alumno {
+    background-color: transparent; /* Color de fondo */
+    padding: 30px; /* Espacio interno */
+    
+  }
+  
+  .contenedor-form-crear-alumno .nombre-crear-al,
+  .contenedor-form-crear-alumno .apellido-crear-al,
+  .contenedor-form-crear-alumno .dni-crear-al {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espacio interno */
+    margin-bottom: 20px; /* Espacio entre campos */
+    border: 3px solid #ce9fe4; /* Borde de los campos */
+    border-radius: 0px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluir el borde en el ancho total */
+    text-align: center;
+  }
+  
+  .contenedor-form-crear-alumno .boton-enviar-crear-al {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espacio interno */
+    background-color: #03192f; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Eliminar borde del botón */
+    cursor: pointer; /* Cursor de puntero al pasar sobre el botón */
+    transition: background-color 0.5s ease; /* Transición de color al pasar sobre el botón */
+  }
+  
+  .contenedor-form-crear-alumno .boton-enviar-crear-al:hover {
+    background-color: #766bd3; /* Color de fondo del botón al pasar sobre él */
+  }
+  

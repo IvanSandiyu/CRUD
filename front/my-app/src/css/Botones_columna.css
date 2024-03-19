@@ -1,0 +1,101 @@
+.col-2 {
+    position: relative;
+    display: flex;
+    background-color: #03192f;
+    flex: 2;
+    height: 100vh;
+    border-style: ridge;
+  }
+  
+.menu {
+    margin: auto;
+ }
+ 
+ .col-2 .menu .ul-principal .accion-al{
+    position: absolute;
+    top: 15px;
+    
+}
+.accion-mesa{
+
+     margin-top: 10px; /* Espacio entre el div arriba y el div abajo */
+
+}
+
+nav ul {
+    display: block;
+}
+
+nav ul li {
+    list-style: none;
+    position: relative;
+    padding: 10px;
+    color: white;
+    transition: all 300ms ease;
+}
+
+nav ul li:hover {
+    transform: scale(1.1);
+    background-color: #ce9fe4;
+}
+
+.menu .ul-principal .drop-al:after,
+.menu .ul-principal .drop-mesa:after {
+    content: "\25BE";
+}
+
+.menu .ul-principal .opciones,
+.menu .ul-principal .opciones-mesa {
+    display: none;
+    position: absolute;
+    z-index: 99;
+    transition: all 300ms ease;
+    border-radius: 10px;
+    background: #ce9fe4;
+}
+
+.menu .ul-principal .drop-al:hover .opciones,
+.menu .ul-principal .drop-mesa:hover .opciones-mesa {
+    display: block;
+    text-align: left;
+}
+
+.menu ul.opciones li,
+.menu ul.opciones-mesa li {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.menu ul.opciones li:hover,
+.menu ul.opciones-mesa li:hover {
+    background: #ce9fe4;
+    color: #444444;
+}
+
+.ul-principal > .drop-al:hover > .opciones,
+.ul-principal > .drop-mesa:hover > .opciones-mesa {
+    display: flex;
+}
+
+.menu .ul-principal .drop-al,
+.menu .ul-principal .drop-mesa {
+    border-radius: 10px;
+    font-size: 25px;
+    margin: 10px auto;
+}
+
+.menu .ul-principal .drop-al {
+    margin-bottom: 0;
+}
+
+.menu .ul-principal .drop-mesa {
+    margin-top: 0;
+}
+
+.columna-central {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: 8;
+    border-style: ridge;
+}

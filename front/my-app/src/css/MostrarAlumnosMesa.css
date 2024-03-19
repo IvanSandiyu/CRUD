@@ -1,0 +1,76 @@
+.contenedor-columnas {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Alinea los elementos en la parte superior */
+  align-items: center; /* Centra horizontalmente los elementos */
+  /*margin-top: -25%; /* Espacio superior utilizando el 10% de la altura de la ventana */
+}
+
+.columna-izquierda {
+  margin-bottom: 50px; /* Espacio inferior */
+}
+
+.contenedor-form-al-inscriptos {
+  background-color: transparent;
+  padding: 20px;
+  
+}
+
+.contenedor-form-al-inscriptos label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #766bd3;
+  text-align: center;
+}
+
+.contenedor-form-al-inscriptos #input-id-mostrar-al {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.boton-buscar-mesa {
+  padding: 10px 20px;
+  background-color: #03192f;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.5s; /* Transición de color al pasar sobre el botón */
+}
+
+.boton-buscar-mesa:hover {
+  background-color: #766bd3;
+}
+
+.columna-derecha {
+  background-color: #03192f;
+  padding: 20px;
+  flex: 1; /* Ocupa el espacio disponible */
+  margin-left: 20px; /* Espacio a la izquierda */
+}
+table{
+  border-collapse: collapse; /* Combina los bordes de las celdas */
+  width: 100%; /* Opcional: haz que la tabla ocupe todo el ancho disponible */
+}
+table th, table td {
+  border: 1px solid #ddd; /* Establece un borde de 1px sólido */
+  padding: 8px; /* Agrega espacio interno para el contenido */
+  text-align: center; /* Alinea el texto a la izquierda */
+}
+table th {
+  background-color: #766bd3; /* Color de fondo para las celdas de encabezado */
+}
+td{
+  color: #766bd3;
+}
+.tabla-mesa-buscada{
+  margin-bottom: 20px;
+}
+.tabla-alumnos-inscriptos-mesa {
+  margin-bottom: 20px; /* Espacio inferior entre las tablas */
+}
+

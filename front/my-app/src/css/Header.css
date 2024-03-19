@@ -1,0 +1,15 @@
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #03192f;
+    padding: 10px;
+    border-style: ridge ;
+}
+h1{
+    color: #ce9fe4;
+}

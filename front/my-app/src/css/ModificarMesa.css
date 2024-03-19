@@ -1,0 +1,52 @@
+.form-modificar-mesa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 70%;
+    /*margin-top: -40%; /* Espacio superior */
+  }
+  
+  .tabla-form-modificar-mesa {
+    width: 100%;
+    overflow-x: auto; /* Habilita desplazamiento horizontal si el contenido excede el ancho */
+  }
+  
+  .tabla-form-modificar-mesa table {
+    width: 100%;
+    border-collapse: collapse; /* Fusiona los bordes de las celdas */
+    text-align: center;
+    color: #98ABEE;
+  }
+  
+  .tabla-form-modificar-mesa th,
+  .tabla-form-modificar-mesa td {
+    padding: 8px; /* Espacio interno */
+    border: 1px solid #766bd3; /* Borde */
+  }
+  
+  .tabla-form-modificar-mesa th {
+    background-color: #766bd3; /* Color de fondo del encabezado */
+  }
+  
+  .tabla-datos-modificar-mesa input {
+    width: calc(100% - 16px); /* Ancho del input */
+    padding: 6px; /* Espacio interno */
+    border: 1px solid #766bd3; /* Borde */
+    border-radius: 4px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+  }
+  
+  .tabla-datos-modificar-mesa button {
+    padding: 6px 12px; /* Espacio interno */
+    background-color: #03192f; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de puntero al pasar sobre el botón */
+    transition: background-color 0.5s; /* Transición de color al pasar sobre el botón */
+  }
+  
+  .tabla-datos-modificar-mesa button:hover {
+    background-color: #766bd3; /* Color de fondo del botón al pasar sobre él */
+  }

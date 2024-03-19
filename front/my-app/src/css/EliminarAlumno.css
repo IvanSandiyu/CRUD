@@ -1,0 +1,44 @@
+.form-eliminar-al {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Espacio arriba */
+}
+
+.contenedor-form-eliminar-al {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinea los elementos a la izquierda */
+    margin-bottom: 15px; /* Espacio entre los elementos */
+}
+
+.label-dni-eliminar-al {
+    margin-bottom: 8px; /* Espacio entre el label y el input */
+    font-weight: bold; /* Hace que el texto del label sea más fuerte */
+    font-size: 21px;
+    color: #766bd3;
+}
+
+.input-dni-eliminar-al {
+    width: 300px; /* Ancho del input */
+    padding: 12px; /* Espacio interno */
+    margin-bottom: 10px; /* Espacio entre el input y el botón */
+    border: 1px solid #ccc; /* Borde del input */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de la fuente */
+}
+
+.boton-enviar-eliminar-al {
+    width: 150px; /* Ancho del botón */
+    padding: 10px; /* Espacio interno */
+    background-color: #03192f; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de puntero al pasar sobre el botón */
+    transition: background-color 0.5s ease; /* Transición de color al pasar sobre el botón */
+}
+
+.boton-enviar-eliminar-al:hover {
+    background-color: #766bd3; /* Color de fondo del botón al pasar sobre él */
+}

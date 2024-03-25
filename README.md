@@ -2,10 +2,10 @@
 
 - Este programa fue realizado para presentar como trabajo final de una materia en la facultad.
 - Permite crear,eliminar,editar,buscar tanto Alumnos como Mesas y anotar alumnos a mesas.
-- Backend: Utilicé Python FastAPI
-- Frontend: JS + React
-- BBDD: PostegreSQL
-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+- Backend: Utilicé Python FastAPI.
+- Frontend: JS + React.
+- BBDD: PostegreSQL.
+- La BBDD se usó de manera local, por lo tanto solo funciona en la computadora donde se realizó. ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 Imagenes:
 ![Index](https://raw.githubusercontent.com/IvanSandiyu/CRUD/main/imagenes%20crud/index.png)
 ![Creacion Alumno](https://github.com/IvanSandiyu/CRUD/blob/main/imagenes%20crud/crearAl.png?raw=true)
